@@ -1,0 +1,17 @@
+.box {
+    border: 50px solid #e74c3c;
+    width: 200px;
+    padding: 50px;
+    margin-bottom: 20px;
+}
+
+.green {
+    border: 50px solid #27ae60;
+}
+
+.blue {
+    border: 50px solid #2980b9;
+}
+
+/* display:none는 아예 존재가 화면에서 없어진다.
+/* visibility:hidden는 눈에 보이는 스타일을 안보이게 한다.
