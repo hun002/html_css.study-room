@@ -136,12 +136,15 @@ body {
   }
 
   #cc-cat {
-    position: fixed;
-    left: 0;
-    top: 73%; 
+    background-size: contain; 
+    background-position: center;
+    border: none;
+    outline: none; 
     transform: translateY(-50%);
+    position: relative;
+    top: 59px;
     width: 300px;
-    height: auto;
+    height: 300px;
     z-index: -1;
     pointer-events: none;
 }
