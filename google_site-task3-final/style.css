@@ -97,7 +97,7 @@ body {
 
 .first-line {
     padding: 15px 30px;
-    border: 1px solid #dadce0;
+    border: 1px dashed #dadce0;
     font-size: 15px;
     color: rgba(0,0,0,.54);
 }
