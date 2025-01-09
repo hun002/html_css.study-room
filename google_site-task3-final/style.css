@@ -153,3 +153,25 @@ body {
     height: 100%;
 }
 
+input.img-button {
+    background: url("./assets/GG.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: contain; 
+    background-position: center;
+    border: none;
+    outline: none;
+    margin-right: -15px;
+  }
+
+  input.img-button1 {
+    background: url("./assets/ii.png") no-repeat;
+    width: 117px;
+    height: 105px;
+    background-size: contain; 
+    background-position: center;
+    border: none;
+    outline: none;
+    margin-left: -15px;
+  }
+
