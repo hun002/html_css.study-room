@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+nav  {
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main {
+    height: 968px;
+    background-color: rgb(41, 65, 171);
+    background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+    background-size: 175%;
+    background-position: 46% 4%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    height: 530px;
+    background-color: black;
+    height: 530px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    padding: 28px;
+    font-weight: bold;
+}
+
+.line {
+    display: flex;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #1ed760;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:visited {
+    text-decoration: none; 
+}
+
+.button-style {
+    border-radius: 500px;
+    background-color: #1ed760;
+    color: #2941ab;
+    font-size: inherit;
+    font-weight: 700;
+    border: none;
+    padding: 14px 32px;
+}
+
+button:hover {
+    transform: scale(1.07);
+    background-color: #2de26d;
+}
+
+.headline {
+    font-size: 146px;
+    line-height: 166px;
+    color: #1ed760;
+    font-weight: 900;
+    position: relative;
+    left: 225px;
+    padding-bottom: 40px;
+}
+
+.heaaline1 {
+    position: relative;
+    left: -2.5em;
+}
+
+.sub-headline {
+    text-align: center;
+    color: #1ed760;
+    font-size: 18px;
+    line-height: 24px;
+    padding-bottom: 40px;
+}
+
+.button-area {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.first-box {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.sub-title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.second-box {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-box {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.fitst-line {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #919496;
+}
+
+.second-line {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+
+.second-item {
+    margin-right: 24px;
+    color: #919496;
+}
