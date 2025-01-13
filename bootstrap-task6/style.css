@@ -14,3 +14,18 @@
     --bs-btn-disabled-border-color: #d2691e;
     --bs-gradient: none;
 }
+
+.first-img {
+    width: 100vw;
+}
+
+.lg-title {
+    margin: 48px;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
