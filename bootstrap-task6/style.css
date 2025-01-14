@@ -91,6 +91,10 @@ a {
         padding-right: 2rem;
         border-bottom: 1px solid #392d23;
     }
+
+    .dd {
+        display: none;
+    }
 }
 
 .third-line {
@@ -102,4 +106,8 @@ a {
         display: block;
 
     }
+}
+
+body {
+    cursor: crosshair;
 }
