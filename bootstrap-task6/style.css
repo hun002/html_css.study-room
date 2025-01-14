@@ -23,6 +23,11 @@
     margin: 48px;
 }
 
+.first-line {
+    color: white;
+    border-bottom: 1px solid #392d23;
+}
+
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -30,3 +35,71 @@
     left: 0;
 }
 
+nav {
+    padding: 2rem;
+    position: fixed;
+}
+
+footer {
+    font-size: 14px;
+    background: #19110b;
+}
+
+.col {
+    padding-bottom: 1rem;
+}
+
+.flag {
+    color: white;
+}
+
+.mobile-footer {
+    display: block;
+}
+
+.second-line {
+    padding: 0 2rem;
+}
+
+.mobile-footer {
+    border-top: 1px solid #392d23;
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 300;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
+    display: none;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+.third-line {
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .third-line {
+        display: block;
+
+    }
+}
